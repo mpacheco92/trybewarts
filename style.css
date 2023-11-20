@@ -45,3 +45,17 @@ main {
   height: 500px;
 }
 
+.checks {
+  display: flex;
+  justify-content: space-between;
+}
+
+.radios {
+  display: flex;
+  flex-flow: column;
+}
+
+.checkboxs {
+  display: flex;
+  flex-flow: column;
+}
