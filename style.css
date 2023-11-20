@@ -26,7 +26,19 @@ main {
 #evaluation-form {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   width: 675px;
+  height: 130px;
+  gap: 10px;
+  margin: 2%;
+}
+
+#input-lastname, #house {
+  order: 1;
+}
+
+#evaluation-form > * {
+  padding: 2%;
 }
 
 #trybewarts-forms-logo {
