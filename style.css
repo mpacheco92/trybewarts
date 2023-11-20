@@ -59,3 +59,7 @@ main {
   display: flex;
   flex-flow: column;
 }
+
+#textarea {
+  resize: none;
+}
