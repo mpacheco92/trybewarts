@@ -26,21 +26,22 @@ main {
 #evaluation-form {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   width: 675px;
-  height: 130px;
-  gap: 10px;
   margin: 2%;
 }
 
-#input-lastname, #house {
+#input-lastname , #house {
   order: 1;
 }
 
-#evaluation-form > * {
-  padding: 2%;
+#identification {
+  display: flex;
+  flex-flow: column wrap;
+  height: 12%;
+  gap: 10px;
 }
 
 #trybewarts-forms-logo {
   height: 500px;
 }
+
