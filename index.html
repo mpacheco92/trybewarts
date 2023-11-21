@@ -72,8 +72,13 @@
         </div>
       </div>
       <div>
-        <label for="textarea" class="textarea">Descreva os principais pontos de aprendizado até aqui (1 hard skill / 1 soft skill):</label>
-        <textarea name="" id="textarea" cols="30" rows="10" maxlength="500" minlength="20">Uma HardSkill que me destravou após entendê-la foi o DOM. E uma SofSkill, com certeza, foi o pensamento computacional.</textarea>
+        <label for="textarea" class="textarea">Descreva os principais pontos de aprendizado até aqui (1 hard skill / 1
+          soft skill):</label>
+        <div class="container-textarea">
+          <textarea name="" id="textarea" cols="30" rows="10" maxlength="500" minlength="20"
+            oninput="atualizaContador()">Uma HardSkill que me destravou após entendê-la foi o DOM. E uma SofSkill, com certeza, foi o pensamento computacional.</textarea>
+          <span id="contador">500</span></p>
+        </div>
         <div>
           <label for="agreement" id="label-infos">Você concorda com o uso das informações acima?</label>
           <input type="checkbox" name="" id="agreement">

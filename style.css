@@ -63,3 +63,14 @@ main {
 #textarea {
   resize: none;
 }
+
+.container-textarea {
+  display: flex;
+  align-items: end;
+  gap: 2%;
+}
+
+#contador {
+  position: absolute;
+  margin-left: 17%;
+}

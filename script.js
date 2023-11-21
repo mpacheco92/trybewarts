@@ -16,3 +16,13 @@ agree.addEventListener('change', () => {
   const btnSubimit = document.querySelector('#submit-btn');
   btnSubimit.disabled = !agree.checked;
 });
+
+const atualizaContador = () => {
+  const textarea = document.querySelector('#textarea');
+  const contador = document.querySelector('#contador');
+  const limiteCaracter = 500;
+
+  const caracterRestante = limiteCaracter - textarea.value.length;
+  contador.textContent = caracterRestante;
+}
+
