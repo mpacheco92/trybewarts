@@ -10,3 +10,9 @@ const emiteAlerta = () => {
 
 const btnEntrar = document.querySelector('.btn-entrar');
 btnEntrar.addEventListener('click', emiteAlerta);
+
+const agree = document.querySelector('#agreement');
+agree.addEventListener('change', () => {
+  const btnSubimit = document.querySelector('#submit-btn');
+  btnSubimit.disabled = !agree.checked;
+});
